@@ -339,9 +339,19 @@
 				<div class="mn-seven__text">Коэффициент (ИМТ) позволяет определить, является ли масса тела нормальной, недостаточной или чрезмерной. Формула для вычисления индекса массы тела (ИМТ) была разработано Адольфом Кетле более 150 лет назад и ей пользуются до сих пор.</div>
 			</div>
 			<div class="mn-seven__calc">
-				<form method="post" role="form" class="calc">
-					
-				</form>
+				<form role="form" method="post" class="form calc__js">
+						<fieldset class="form__group">
+							<input type="text" class="form__input" name="growth" placeholder=" " autocomplete="off">
+							<label class="form__label">Ваш рост, см.</label>
+						</fieldset>
+
+						<fieldset class="form__group">
+							<input type="text" class="form__input" name="weight" placeholder=" " autocomplete="off">
+							<label class="form__label">Ваш вес, кг.</label>
+						</fieldset>
+
+						<input type="submit" class="form__submit" value="Рассчитать">
+					</form>
 			</div>
 		</div>
 	</div>
@@ -354,6 +364,121 @@
 		<a href="#" class="btn mn-five__btn">Бесплатная консультация</a>
 	</div>
 </section>
+
+<section class="mn-eight">
+	<div class="container">
+		<div class="title">Последние новости</div>
+
+		<div class="mn-eight__news">
+
+			<div class="mn-eight__news--wrap">
+				<div class="mn-eight__pic"><img src="./dist/img/news-img.png" alt=""></div>
+				<div class="mn-eight__title">Конференция в институте пластической хирургии</div>
+				<div class="mn-eight__text">В конце марта в Институте пластической хирургии в г. Москва состоялась конференция по компютерным технологиям и коммуникациям.</div>
+				<a href="#" class="btn mn-eight__btn">Читать полностью</a>
+			</div>
+
+			<div class="mn-eight__news--wrap">
+				<div class="mn-eight__pic"><img src="./dist/img/news-img.png" alt=""></div>
+				<div class="mn-eight__title">Конференция в институте пластической хирургии</div>
+				<div class="mn-eight__text">В конце марта в Институте пластической хирургии в г. Москва состоялась конференция по компютерным технологиям и коммуникациям.</div>
+				<a href="#" class="btn mn-eight__btn">Читать полностью</a>
+			</div>
+
+			<div class="mn-eight__news--wrap">
+				<div class="mn-eight__pic"><img src="./dist/img/news-img.png" alt=""></div>
+				<div class="mn-eight__title">Конференция в институте пластической хирургии</div>
+				<div class="mn-eight__text">В конце марта в Институте пластической хирургии в г. Москва состоялась конференция по компютерным технологиям и коммуникациям.</div>
+				<a href="#" class="btn mn-eight__btn">Читать полностью</a>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="map" id="maps"></section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer__grid">
+
+			<div class="footer__logos">
+				<img src="./dist/img/logo.png" alt="">
+				<div class="footer__name">Центр комплексного лечения ожирения</div>
+			</div>
+
+<!-- menu -->
+			<div class="footer__menu">
+
+				<div class="footer__menu--item">
+					<div class="footer__menu--title"><a href="">О Центре</a></div>
+					<ul class="footer__menu--list">
+						<li><a href="#">Пункт 1</a></li>
+						<li><a href="#">Пункт 2</a></li>
+						<li><a href="#">Пункт 3</a></li>
+						<li><a href="#">Пункт 4</a></li>
+						<li><a href="#">Пункт 5</a></li>
+						<li><a href="#">Пункт 6</a></li>
+						<li><a href="#">Пункт 7</a></li>
+						<li><a href="#">Пункт 8</a></li>
+					</ul>
+				</div>
+
+				<div class="footer__menu--item">
+					<div class="footer__menu--title"><a href="">Цены</a></div>
+				</div>
+
+				<div class="footer__menu--item">
+					<div class="footer__menu--title"><a href="">Виды операций</a></div>
+				</div>
+
+				<div class="footer__menu--item">
+					<div class="footer__menu--title"><a href="">Результаты</a></div>
+				</div>
+
+				<div class="footer__menu--item">
+					<div class="footer__menu--title"><a href="">Отзывы</a></div>
+				</div>
+
+				<div class="footer__menu--item">
+					<div class="footer__menu--title"><a href="">Врачам</a></div>
+					<ul class="footer__menu--list">
+						<li><a href="#">Пункт 1</a></li>
+						<li><a href="#">Пункт 1</a></li>
+					</ul>
+				</div>
+
+				<div class="footer__menu--item">
+					<div class="footer__menu--title"><a href="">Пациентам</a></div>
+					<ul class="footer__menu--list">
+						<li><a href="#">Пункт 1</a></li>
+						<li><a href="#">Пункт 1</a></li>
+						<li><a href="#">Пункт 1</a></li>
+					</ul>
+				</div>
+
+				<div class="footer__menu--item">
+					<div class="footer__menu--title"><a href="">Контакты</a></div>
+				</div>
+
+
+			</div>
+<!-- /menu -->
+
+			<div class="footer__cont">
+				<a class="header__phone" href="tel:+78125765050">+7 (812) 576-50-50</a>
+				<a class="modal-open btn header__call" href="#zakaz">Обратный звонок</a>
+				<div class="footer__soc">
+					<a href="https://vk.com/" target="_blank"><img src="./dist/img/vk.svg" alt=""></a>
+					<a href="https://ru-ru.facebook.com/" target="_blank"><img src="./dist/img/fb.svg" alt=""></a>
+					<a href="https://youtube.com/" target="_blank"><img src="./dist/img/yt.svg" alt=""></a>
+					<a href="https://instagram.com/" target="_blank"><img src="./dist/img/inst.svg" alt=""></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</footer>
 
 </body>
 </html>
