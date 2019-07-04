@@ -267,7 +267,40 @@
 <section class="mn-six">
 	<div class="container">
 		<!-- TODO: слайдер -->
-			<div class="mn-six__slider"></div>
+			<div class="mn-six__slider">
+				<!-- Slider main container -->
+				<div class="swiper-container">
+				    <!-- Additional required wrapper -->
+				    <div class="swiper-wrapper">
+				        <!-- Slides -->
+				        <div class="swiper-slide">
+							<img src="/dist/img/slides/slide1.png" alt="">
+							<div class="mn-six__name">Иван Иванов</div>
+							<div class="mn-six__result">со 190 кг до 95 кг</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="/dist/img/slides/slide2.png" alt="">
+							<div class="mn-six__name">Иван Иванов</div>
+							<div class="mn-six__result">со 190 кг до 95 кг</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="/dist/img/slides/slide1.png" alt="">
+							<div class="mn-six__name">Иван Иванов</div>
+							<div class="mn-six__result">со 190 кг до 95 кг</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="/dist/img/slides/slide2.png" alt="">
+							<div class="mn-six__name">Иван Иванов</div>
+							<div class="mn-six__result">со 190 кг до 95 кг</div>
+						</div>
+				    </div>
+
+				</div>
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+
+			</div>
 		<!-- TODO: слайдер -->
 
 		<div class="mn-six__wrap">
@@ -396,7 +429,7 @@
 	</div>
 </section>
 
-<section class="map" id="maps"></section>
+<section class="map" id="map"></section>
 
 <footer class="footer">
 	<div class="container">
@@ -479,6 +512,10 @@
 		</div>
 	</div>
 </footer>
+
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script src="/dist/lib/lib.min.js"></script>
+<script src="/dist/scripts.js"></script>
 
 </body>
 </html>
